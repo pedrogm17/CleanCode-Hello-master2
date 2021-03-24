@@ -75,6 +75,7 @@ public class HelloPresenter implements HelloContract.Presenter {
 
   private void navigateToByeScreen() {
     //TODO: no implemented
+
   }
 
   @Override

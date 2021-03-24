@@ -1,5 +1,6 @@
 package es.ulpgc.eite.cleancode.helloworld.hello;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
@@ -9,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import es.ulpgc.eite.cleancode.helloworld.R;
 import es.ulpgc.eite.cleancode.helloworld.app.AppMediator;
+import es.ulpgc.eite.cleancode.helloworld.bye.ByeActivity;
 
 
 public class HelloActivity
@@ -64,7 +66,6 @@ public class HelloActivity
     // deal with the data
     helloMessage.setText(viewModel.helloMessage);
   }
-
 
   private String getGoByeButtonLabel() {
     return getResources().getString(R.string.go_bye_button_label);

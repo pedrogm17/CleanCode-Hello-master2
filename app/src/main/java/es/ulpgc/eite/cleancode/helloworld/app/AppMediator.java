@@ -54,6 +54,6 @@ public class AppMediator {
   }
 
     public ByeState getByeState() {
-      return null;
+      return byeState;
     }
 }

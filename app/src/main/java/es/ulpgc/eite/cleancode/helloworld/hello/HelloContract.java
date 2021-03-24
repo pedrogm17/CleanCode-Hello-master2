@@ -5,7 +5,9 @@ import java.lang.ref.WeakReference;
 public interface HelloContract {
 
   interface View {
-    void injectPresenter(Presenter presenter);
+      void navigateToByeScreen();
+
+      void injectPresenter(Presenter presenter);
 
     void displayHelloData(HelloViewModel viewModel);
   }
